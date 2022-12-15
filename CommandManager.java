@@ -40,14 +40,4 @@ public class CommandManager extends ListenerAdapter {
         event.getGuild().updateCommands().addCommands(commandData).queue();
     }
 
-    /*@Override
-    public void onReady(@NotNull ReadyEvent event) {
-        List<CommandData> commandData = new ArrayList<>();
-
-        commandData.add(Commands.slash("test", "Testing Successful"));
-
-        event.getJDA().updateCommands().addCommands(commandData).queue();
-    }
-
-     */
 }
